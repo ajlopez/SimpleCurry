@@ -1,7 +1,7 @@
 { "name": "simplecurry"
 , "description": "Simple currifying of functions"
 , "keywords": [ "curry", "javascript", "functions" ]
-, "version": "0.0.1alpha"
+, "version": "0.0.1"
 , "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
 , "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleCurry.git" }
 , "main": "./lib/simplecurry.js"

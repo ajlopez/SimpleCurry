@@ -16,10 +16,26 @@ Reference in your program:
 
 ```js
 var _ = require('simplecurry');
+
+var add = _.curry(function (x, y) { return x + y; });
+
+// Apply all arguments
+add(1, 2); // 3
+
+// Apply arguments one by one
+add(1)(2); // 3
+
+// Partial apply first argument
+var add1 = add(1);
+add1(2); // 3
+
 ```
 
-TBD
+## To Do
 
+- Adapt to browser
+- Partial apply skipping argument using `_`
+- Test more use cases
 
 ## Development
 
@@ -40,7 +56,7 @@ TBD
 
 ## Versions
 
-TBD
+- 0.0.1 Published
 
 ## License
 
