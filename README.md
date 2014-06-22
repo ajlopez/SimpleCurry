@@ -52,7 +52,7 @@ TBD
 
 ## References
 
-TBD
+- [Python Funcy](https://github.com/Suor/funcy)
 
 ## Versions
 
