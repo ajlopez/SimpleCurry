@@ -1,6 +1,6 @@
 # SimpleCurry
 
-Simple currifying of JavaScript functions.
+Simple sauce for functional JavaScript: currying, partial application.
 
 ## Installation
 
@@ -17,6 +17,7 @@ Reference in your program:
 ```js
 var _ = require('simplecurry');
 
+// Currying a function
 var add = _.curry(function (x, y) { return x + y; });
 
 // Apply all arguments
@@ -29,6 +30,10 @@ add(1)(2); // 3
 var add1 = add(1);
 add1(2); // 3
 
+// Partial apply to function
+function add(x, y) { return x + y; }
+var add1 = _.partial(add, 1);
+add1(3); // 4
 ```
 
 ## To Do
