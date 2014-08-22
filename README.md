@@ -58,6 +58,7 @@ TBD
 ## References
 
 - [Python Funcy](https://github.com/Suor/funcy)
+- [Simple Currying In Javascript](http://blog.zakhour.me/post/javascript/simple-currying-in-javascript/)
 
 ## Versions
 
